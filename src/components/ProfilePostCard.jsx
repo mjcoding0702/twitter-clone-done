@@ -12,7 +12,7 @@ export default function ProfilePostCard({ content, postId }) {
   const userId = decode.id;
 
   const pic = "https://pbs.twimg.com/profile_images/1587405892437221376/h167Jlb2_400x400.jpg";
-  const BASE_URL = "https://ea7271e8-ec90-4bdd-ac50-1bbc85c3b1b0-00-qm86a4ri2jfb.pike.replit.dev"
+  const BASE_URL = "https://twitter-clone-api-sigma-schoolsc1.replit.app"
 
   useEffect(() => {
     fetch(`${BASE_URL}/likes/post/${postId}`)
